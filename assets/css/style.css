@@ -4,17 +4,23 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1536px;
+    height: 1100px;
+}
+* {
+    box-sizing: border-box;
 
 }
+
 .header{
     position: sticky;
     width: 100%;
     color: #fff;
     position: fixed;
+    border-bottom: none;
 
 }
 .header nav a {
-    display: inline-block;
     float: right;
     padding-left: 15px;
     margin: 15px 25px 0px 10px;
@@ -24,6 +30,10 @@ body{
     border-left: 2px solid #efefef;
     font-size: larger;
     text-shadow: 1px 1px gray;
+
+}
+nav a:last-child {
+    border-left: 0 none;
 
 }
 #logoname{
@@ -42,3 +52,38 @@ body{
     border-radius: 10px;
     
 }
+.first-sec{
+    padding-top: 200px;
+}
+.first-sec-aboutus{
+    float: left;
+    width: 100%;
+    max-width: 680px;
+    height: 600px;
+    padding: 30px;
+    margin: 0 0 0 80px;
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 22px;
+    text-align: left;
+
+}
+#first-sec-h1{
+    border-bottom: 2px solid gray;
+    padding: 0 0 13px;
+    margin-bottom: 10px;
+    font-size: 36px;
+
+}
+.first-sec-aboutus-photo{
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    margin: 0 15px 10px 0;
+
+}
+.first-sec-aboutus p:last-child{
+    margin: 30px 0 0 5px;
+    text-align: justify;
+}
+
