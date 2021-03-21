@@ -1,17 +1,29 @@
 body{
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
-    position: absolute;
-    /* text-shadow: 1px 1px rgba(0, 0, 0, 0.3); */
+    background: url(../images/bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .header{
     position: sticky;
     width: 100%;
-    overflow: auto;
     color: #fff;
-    background: #fff;
-    border-bottom: 2px solid #ccc;
+    position: fixed;
+
+}
+.header nav a {
     display: inline-block;
+    float: right;
+    padding-left: 15px;
+    margin: 15px 25px 0px 10px;
+    line-height: 18px;
+    color: antiquewhite;
+    text-decoration: none;
+    border-left: 2px solid #efefef;
+    font-size: larger;
+    text-shadow: 1px 1px gray;
 
 }
 #logoname{
@@ -26,34 +38,7 @@ body{
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
-    margin: 10px;
+    margin: 12px 15px;
     border-radius: 10px;
-}
-
-div nav a{
-    float: right;
-    margin-right: 15px;
-    margin-top: 7px;
-    padding: 5px 0 10px 10px;
-    color: #black;
-    text-decoration: none;
-    border-left: 1px solid #efefef;
-    display: inline-block;
-    font-size: 20px
-}
-
-.aboutme{
-    border: 2px solid black;
-    width: 35%;
-    margin: 20px;
-    background-color: aqua;
-}
-
-/* .aboutme p::before{
-    content: url(../images/me.png);
-}     */
-
-#addme a img{
-   max-width: 50px;
-   max-height: 50px;
+    
 }
