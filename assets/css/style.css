@@ -2,23 +2,30 @@ body{
     background: url(../images/bg.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+
 * {
     box-sizing: border-box;
-
 }
 
-
 .header{
-    position: sticky;
+    position: fixed;
     width: 100%;
     color: #fff;
-    position: fixed;
     border-bottom: none;
 
+}
+.header-div{
+    width: 100%;
+    max-width: 1200px;
+    z-index: 99;
+    margin-bottom: 20px;
+    overflow: auto;
+    margin: 0 auto;
+    clear: both;
 }
 .header nav a {
     float: right;
@@ -52,27 +59,29 @@ nav a:last-child {
     border-radius: 10px;
     
 }
-.first-sec{
-    padding-top: 150px;
+.sec-div{
+    padding-top: 165px;
 }
+
 .first-sec-aboutus{
     float: left;
     width: 100%;
     max-width: 670px;
-    height: 400px;
+    height: 520px;
     padding: 30px;
-    margin: 0 0 0 190px;
     background: #fff;
     border: 1px solid #ddd;
     font-size: 22px;
     text-align: left;
+    margin-left: 100px;
 
 }
 #first-sec-h1{
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #ddd;
     padding: 0 0 13px;
     margin-bottom: 10px;
     font-size: 36px;
+    color: #4aaaa5;
 
 }
 .first-sec-aboutus-photo{
@@ -82,29 +91,45 @@ nav a:last-child {
     margin: 0 15px 10px 0;
 
 }
-/* .first-sec-aboutus p:last-child{
-    margin: 30px 0 0 5px;
-    text-align: justify;
-} */
-
 .second-sec-social{
-    padding-top: 150px;
     float: right;
     width: 100%;
     max-width: 270px;
-    height: 200px;
+    height: 220px;
     padding: 30px;
-    margin: 0 350px 0 0;
     background: #fff;
     border: 1px solid #ddd;
     font-size: 22px;
     text-align: left;
-
+    margin-right: 100px;
 
 }
 .second-sec-h1{
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #ddd;
     padding: 0 0 13px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 36px;
+    color: #4aaaa5;
+
+}
+.second-sec-social a img{
+    width: 80px;
+    height: 80px;
+    margin: 0 10px 0 10px;
+
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    clear: both;
+    margin-top: 100px;
+    
+
+}
+.footer-div{
+    height: 114px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    overflow: hidden;
 }
