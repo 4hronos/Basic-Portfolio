@@ -10,7 +10,9 @@ body{
 * {
     box-sizing: border-box;
 }
-
+ 
+/* Header Elements */
+ 
 .header{
     position: fixed;
     width: 100%;
@@ -59,6 +61,10 @@ nav a:last-child {
     border-radius: 10px;
     
 }
+
+/* Section elements  */
+/* Main section */
+
 .sec-div{
     padding-top: 165px;
 }
@@ -66,14 +72,17 @@ nav a:last-child {
 .first-sec-aboutus{
     float: left;
     width: 100%;
-    max-width: 670px;
+    max-width: 690px;
     height: 520px;
     padding: 30px;
     background: #fff;
     border: 1px solid #ddd;
+    border-radius: 20px;
     font-size: 22px;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 90px;
+    margin-right: 20px;
+
 
 }
 #first-sec-h1{
@@ -91,17 +100,22 @@ nav a:last-child {
     margin: 0 15px 10px 0;
 
 }
+
+/* Second section */
+
 .second-sec-social{
     float: right;
     width: 100%;
-    max-width: 270px;
+    max-width: 290px;
     height: 220px;
     padding: 30px;
     background: #fff;
     border: 1px solid #ddd;
+    border-radius: 20px;
     font-size: 22px;
     text-align: left;
-    margin-right: 100px;
+    margin-right: 90px;
+    margin-left: 20px;
 
 }
 .second-sec-h1{
@@ -115,9 +129,12 @@ nav a:last-child {
 .second-sec-social a img{
     width: 80px;
     height: 80px;
-    margin: 0 10px 0 10px;
+    margin: 5px 15px 0 15px;
 
 }
+
+/* footer elements */
+
 .footer{
     position: fixed;
     width: 100%;
@@ -132,4 +149,41 @@ nav a:last-child {
     text-align: center;
     padding: 50px 0 50px 0;
     overflow: hidden;
+    font-weight: 600;
+    font-size: 24px;
+    color: antiquewhite;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+    font-style: italic;
+}
+/* Product Page */
+.sec-product{
+padding: 150px 10% 10% 10%;
+}
+.div-product{
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    justify-content: space-between;
+}
+
+.item{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+
+}
+.item img{
+    box-sizing: content-box;
+    flex: 1 0 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    
 }
