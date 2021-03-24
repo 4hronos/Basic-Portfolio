@@ -295,3 +295,26 @@ padding: 20px 10% 5px 10%;
 .div2-contact button{
     height: 30px;
 }
+#basic-hw:hover{
+    border: 2px solid blue;
+    position: absolute;
+    background: lawngreen;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 1;
+    font-size: 30px;
+}
+#basic-hw{
+    border: 2px solid blue;
+    position: absolute;
+    background: lawngreen;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0;
+}
