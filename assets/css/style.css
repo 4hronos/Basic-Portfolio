@@ -125,6 +125,9 @@ nav a:last-child {
     color: #4aaaa5;
 
 }
+.second-sec-social a{
+    text-decoration: none;
+}
 .second-sec-social a img{
     width: 60px;
     height: 60px;
@@ -145,11 +148,14 @@ nav a:last-child {
     text-align: center;
     padding: 50px 0 50px 0;
     overflow: hidden;
-    font-weight: 600;
+}
+.footer p{
+    color: #005f00;
+    text-shadow: 1px 1px white;
     font-size: 24px;
-    color: green;
-    text-shadow: 1px 1px #d6b10bb3;
+    font-weight: 800;
     font-style: italic;
+
 }
 /* Product Page */
 
