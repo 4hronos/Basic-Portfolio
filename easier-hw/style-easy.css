@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./double-bubble-dark.png);
+}
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: #0e050525;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+.header nav{
+    width: 100%;
+    max-width: 1200px;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.header nav a{
+    text-decoration: none;
+    color: white !important;
+    flex: 1 1;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.main-container{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    background-color: white;
+    border: 5px solid white;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+}
+.sec-main{
+    position: absolute;
+    width: 50%;
+    left: 40px;
+    top: 80px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px 2px black;
+    height: 350px;
+    border-radius: 5px;
+
+}
+.aside-main{
+    position: absolute;
+    width: 40%;
+    right: 40px;
+    top: 80px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px 2px black;
+    height: 350px;
+    border-radius: 5px;
+
+}
+.sec-main h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.aside-main p{
+    transform: rotate(-45deg);
+    margin: 135px 15px 135px 5px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.footer{
+    height: 90px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 42px;
+    text-align: center;    
+    padding: 45px;
+    color: ivory;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px 2px black;
+}

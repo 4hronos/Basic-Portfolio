@@ -186,8 +186,10 @@ padding: 20px 10% 5px 10%;
 .item img{
     width: 270px;
     height: 250px;
-
-    
+}
+.item img:hover{
+    width: 300px;
+    height: 270px;
 }
 .productname{
     padding: 10px;
@@ -219,6 +221,9 @@ padding: 20px 10% 5px 10%;
     font-size: 18px;
     margin: 0;
 
+}
+.item button:hover{
+    opacity: 0.4;
 }
 
 /* Contact Page */
