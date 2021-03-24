@@ -27,6 +27,49 @@
         </div>
     </header>
 
+<section class="sec-contact">
+    <h1 class="contact-h1">Təklif və şikayətlərinizi bildirməkdən çəkinməyin :)</h1>
+
+    <div class="div1-contact">
+        <h2>Əlaqə məlumatları:</h2>
+        <img class="logo-contact" src="./assets/images/yashil_logo.jpg" alt="yashil logo">
+        <address style="font-style: italic; word-spacing: 2px;">
+            Telefon nömrəmiz: <a href="tel:++994556171699">+994556171699</a>
+            </br></br>
+            Ünvan:
+            </br>
+            Bakı şəhəri, </br>
+            Yasamal r-nu, Moskva pr. 8, </br>
+            Main Yaşayış Kompleksi, AZ1012 </br>
+            Azərbaycan
+        </address>
+    </div>
+
+    <div class="div2-contact">
+        <form action="#" method="POST">
+            <fieldset> 
+                <!-- <legend>Təklif və şikayətlərinizi bildirməkdən çəkinməyin</legend> -->
+            <label for="name" >Adınız:</label> </br>
+            <input type="text" id="name" autofocus required /> </br>
+            <label for="surname">Soyadınız:</label> </br>
+            <input type="text" id="surname" required /></br>
+            <label for="sex" >Cinsiyyətiniz:</label> </br>
+            <input type="radio" name="sex" id="sexm"/><label for="sex">Kişi</label> </br>
+            <input type="radio" name="sex" id="sexf"/><label for="sex">Qadın</label> </br>
+            <label for="email">Elektron Poçtunuz:</label> </br>
+            <input type="email" id="email"/></br>
+            <label for="tel">Telefon Nömrəniz:</label> </br>
+            <input type="tel" id="tel" pattern="[+, 0-9]{13}" /></br>
+            <label for="birth" >Doğum Tarixiniz:</label> </br>
+            <input type="date" id="birth" min="01.01.2002" /> </br>
+            <!-- <input type="submit" value="Formu göndər" onclick="alert('Cavablarınız qəbul edilmişdir. İştirakınız üçün çox sağolun!')" /> -->
+            <input type="reset" value="Sıfırla" />
+            <button onclick="alert('Çox sağolun! Cavablarınız qəbul edilmişdir.')">Formu göndər</button>
+            <textarea name="suggestions" id="sug" cols="30" rows="10" placeholder="Təklif və şikayətləriniz haqqında burada ətraflı yaza bilərsiniz."></textarea>
+        </form>
+        </fieldset>
+    </div>
+</section>
     
     <footer class="footer">
         <div class="header-div footer-div">

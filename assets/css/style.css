@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 * {
     box-sizing: border-box;
@@ -12,7 +13,7 @@ body{
 /* Header Elements */
  
 .header{
-    position: fixed;
+    position: static;
     width: 100%;
     color: #fff;
     border-bottom: none;
@@ -64,7 +65,7 @@ nav a:last-child {
 /* Main section */
 
 .sec-div{
-    padding-top: 145px;
+    padding-top: 20px;
 }
 
 .first-sec-aboutus{
@@ -153,7 +154,7 @@ nav a:last-child {
 /* Product Page */
 
 .sec-product{
-padding: 150px 10% 5px 10%;
+padding: 20px 10% 5px 10%;
 
 }
 .div-product{
@@ -188,12 +189,12 @@ padding: 150px 10% 5px 10%;
 
     
 }
-.item p,
 .productname{
     padding: 10px;
 }
-p:last-child{
-    padding: 10px 0 0 0 ;
+
+.item p{
+    padding: 17px 0 0 0;
 }
 .price{
     color: grey;
@@ -217,10 +218,69 @@ p:last-child{
     height: 45px;
     font-size: 18px;
     margin: 0;
-    
-  }
+
+}
 
 /* Contact Page */
 
+.sec-contact{
+    border: 1px solid black;
+    position: relative;
+    background-color: #8ac7a1;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1090px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
 
+.contact-h1{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    text-align: center;
 
+}
+.div1-contact{
+    position: absolute;
+    left: 20px;
+    width: 30%;
+    padding: 10px;
+
+}
+/* .div1-contact h2{
+    text-align: center;
+} */
+.logo-contact{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.div2-contact{
+    position: absolute;
+    right: 20px;
+    padding: 20px;
+    border-left: 3px solid black;
+    width: 70%;
+    line-height: 14px;
+    
+}
+.div2-contact label,
+.div2-contact input{
+    padding: 5px;
+    margin: 5px;
+}
+.div2-contact textarea{
+    position: absolute; 
+    left: 200px; 
+    top: 0; 
+    width: 560px; 
+    height: 427px;
+}
+.div2-contact input[type=reset],
+.div2-contact button{
+    height: 30px;
+}
